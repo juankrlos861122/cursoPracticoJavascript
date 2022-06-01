@@ -1,0 +1,67 @@
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    background-color: darkslategrey;
+}
+
+header>h1{
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font-size: 3rem;
+}
+
+header>p {
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.6rem;
+}
+
+.main-cuadrado, .main-triangulo, .main-circulo {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.main-cuadrado>form, .main-triangulo>form, .main-circulo>form {
+    display: grid;
+    min-width: 320px;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+}
+
+section>h2 {
+    color: rgb(43, 65, 206);
+}
+
+section>form>label {
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+    justify-items: left;
+    font-size: 1.4rem;
+}
+
+.input {
+    margin-bottom: 16px;
+}
+
+.button {
+    margin-bottom: 16px;
+}
